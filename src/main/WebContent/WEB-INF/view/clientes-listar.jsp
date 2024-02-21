@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Clientes</h1>
-
+   <button><a href="${pageContext.request.contextPath}/clientes/findOne?opcion=1">Agregar</a></button>
 <table>
    <thead> 
        <tr>
@@ -35,7 +35,7 @@
            <td>${item.correo}</td>
            <td>
               <button><a href="${pageContext.request.contextPath}/clientes/findOne?idCliente=${item.idCliente}&opcion=1">Actualizar</a></button>
-              <button>Eliminar</button>
+              <button><a href="${pageContext.request.contextPath}/clientes/findOne?idCliente=${item.idCliente}&opcion=2">Eliminar</button>
           </td>
        </tr>
        </c:forEach>

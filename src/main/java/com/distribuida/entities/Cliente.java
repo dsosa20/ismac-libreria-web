@@ -33,6 +33,7 @@ public class Cliente {
 	
 	public Cliente() {}
 	
+
 	public Cliente(int idCliente, String cedula, String nombre, String apellido, String direccion, String telefono,
 			String correo) {
 		this.idCliente = idCliente;
