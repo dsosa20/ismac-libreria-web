@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1> Libros </h1>
+<button><a href="${pageContext.request.contextPath}/libros/findOne?opcion=1">Agregar</a></button>
     <table>
           <thead>
                 <tr>
